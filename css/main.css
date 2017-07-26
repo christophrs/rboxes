@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 180px;
+	width: 45%;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.indigo {
+	background-color: indigo;
+}
+
+.violet {
+	background-color: violet;
+}
+
+@media (max-width: 600px) {
+	.blue, .indigo {
+		display: none;
+	}
+}
+
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}
